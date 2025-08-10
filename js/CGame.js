@@ -290,8 +290,6 @@ function CGame(oData) {
             s_oGame.unload();
             $(s_oMain).trigger("end_session");
             
-            playExistingSound("soundtrack");
-            setVolume("soundtrack", 1);
             s_oMain.gotoMenu();
         });
     };
